@@ -1,0 +1,916 @@
+{
+  "sourates": [
+    {
+      "numero": 1,
+      "nom": "Al-Fatihah",
+      "nom_arabe": "الفاتحة",
+      "traduction": "L'ouverture",
+      "type": "mecquoise",
+      "nombre_versets": 7
+    },
+    {
+      "numero": 2,
+      "nom": "Al-Baqarah",
+      "nom_arabe": "البقرة",
+      "traduction": "La vache",
+      "type": "medinoise",
+      "nombre_versets": 286
+    },
+    {
+      "numero": 3,
+      "nom": "Ali 'Imran",
+      "nom_arabe": "آل عمران",
+      "traduction": "La famille de 'imran",
+      "type": "medinoise",
+      "nombre_versets": 200
+    },
+    {
+      "numero": 4,
+      "nom": "An-Nisa",
+      "nom_arabe": "النساء",
+      "traduction": "Les femmes",
+      "type": "medinoise",
+      "nombre_versets": 176
+    },
+    {
+      "numero": 5,
+      "nom": "Al-Ma'idah",
+      "nom_arabe": "المائدة",
+      "traduction": "La table servie",
+      "type": "medinoise",
+      "nombre_versets": 120
+    },
+    {
+      "numero": 6,
+      "nom": "Al-An'am",
+      "nom_arabe": "الأنعام",
+      "traduction": "Les bestiaux",
+      "type": "mecquoise",
+      "nombre_versets": 165
+    },
+    {
+      "numero": 7,
+      "nom": "Al-A'raf",
+      "nom_arabe": "الأعراف",
+      "traduction": "Al-A'raf",
+      "type": "mecquoise",
+      "nombre_versets": 206
+    },
+    {
+      "numero": 8,
+      "nom": "Al-Anfal",
+      "nom_arabe": "الأنفال",
+      "traduction": "Le butin",
+      "type": "medinoise",
+      "nombre_versets": 75
+    },
+    {
+      "numero": 9,
+      "nom": "At-Tawbah",
+      "nom_arabe": "التوبة",
+      "traduction": "Le repentir",
+      "type": "medinoise",
+      "nombre_versets": 129
+    },
+    {
+      "numero": 10,
+      "nom": "Yunus",
+      "nom_arabe": "يونس",
+      "traduction": "Jonas",
+      "type": "mecquoise",
+      "nombre_versets": 109
+    },
+    {
+      "numero": 11,
+      "nom": "Hud",
+      "nom_arabe": "هود",
+      "traduction": "Houd",
+      "type": "mecquoise",
+      "nombre_versets": 123
+    },
+    {
+      "numero": 12,
+      "nom": "Yusuf",
+      "nom_arabe": "يوسف",
+      "traduction": "Joseph",
+      "type": "mecquoise",
+      "nombre_versets": 111
+    },
+    {
+      "numero": 13,
+      "nom": "Ar-Ra'd",
+      "nom_arabe": "الرعد",
+      "traduction": "Le tonnerre",
+      "type": "medinoise",
+      "nombre_versets": 43
+    },
+    {
+      "numero": 14,
+      "nom": "Ibrahim",
+      "nom_arabe": "ابراهيم",
+      "traduction": "Abraham",
+      "type": "mecquoise",
+      "nombre_versets": 52
+    },
+    {
+      "numero": 15,
+      "nom": "Al-Hijr",
+      "nom_arabe": "الحجر",
+      "traduction": "Al-Hijr",
+      "type": "mecquoise",
+      "nombre_versets": 99
+    },
+    {
+      "numero": 16,
+      "nom": "An-Nahl",
+      "nom_arabe": "النحل",
+      "traduction": "Les abeilles",
+      "type": "mecquoise",
+      "nombre_versets": 128
+    },
+    {
+      "numero": 17,
+      "nom": "Al-Isra",
+      "nom_arabe": "الإسراء",
+      "traduction": "Le voyage nocturne",
+      "type": "mecquoise",
+      "nombre_versets": 111
+    },
+    {
+      "numero": 18,
+      "nom": "Al-Kahf",
+      "nom_arabe": "الكهف",
+      "traduction": "La caverne",
+      "type": "mecquoise",
+      "nombre_versets": 110
+    },
+    {
+      "numero": 19,
+      "nom": "Maryam",
+      "nom_arabe": "مريم",
+      "traduction": "Marie",
+      "type": "mecquoise",
+      "nombre_versets": 98
+    },
+    {
+      "numero": 20,
+      "nom": "Taha",
+      "nom_arabe": "طه",
+      "traduction": "Ta-Ha",
+      "type": "mecquoise",
+      "nombre_versets": 135
+    },
+    {
+      "numero": 21,
+      "nom": "Al-Anbya",
+      "nom_arabe": "الأنبياء",
+      "traduction": "Les prophètes",
+      "type": "mecquoise",
+      "nombre_versets": 112
+    },
+    {
+      "numero": 22,
+      "nom": "Al-Hajj",
+      "nom_arabe": "الحج",
+      "traduction": "Le pèlerinage",
+      "type": "medinoise",
+      "nombre_versets": 78
+    },
+    {
+      "numero": 23,
+      "nom": "Al-Mu'minun",
+      "nom_arabe": "المؤمنون",
+      "traduction": "Les croyants",
+      "type": "mecquoise",
+      "nombre_versets": 118
+    },
+    {
+      "numero": 24,
+      "nom": "An-Nur",
+      "nom_arabe": "النور",
+      "traduction": "La lumière",
+      "type": "medinoise",
+      "nombre_versets": 64
+    },
+    {
+      "numero": 25,
+      "nom": "Al-Furqan",
+      "nom_arabe": "الفرقان",
+      "traduction": "Le discernement",
+      "type": "mecquoise",
+      "nombre_versets": 77
+    },
+    {
+      "numero": 26,
+      "nom": "Ash-Shu'ara",
+      "nom_arabe": "الشعراء",
+      "traduction": "Les poètes",
+      "type": "mecquoise",
+      "nombre_versets": 227
+    },
+    {
+      "numero": 27,
+      "nom": "An-Naml",
+      "nom_arabe": "النمل",
+      "traduction": "Les fourmis",
+      "type": "mecquoise",
+      "nombre_versets": 93
+    },
+    {
+      "numero": 28,
+      "nom": "Al-Qasas",
+      "nom_arabe": "القصص",
+      "traduction": "Le récit",
+      "type": "mecquoise",
+      "nombre_versets": 88
+    },
+    {
+      "numero": 29,
+      "nom": "Al-'Ankabut",
+      "nom_arabe": "العنكبوت",
+      "traduction": "L'araignée",
+      "type": "mecquoise",
+      "nombre_versets": 69
+    },
+    {
+      "numero": 30,
+      "nom": "Ar-Rum",
+      "nom_arabe": "الروم",
+      "traduction": "Les romains",
+      "type": "mecquoise",
+      "nombre_versets": 60
+    },
+    {
+      "numero": 31,
+      "nom": "Luqman",
+      "nom_arabe": "لقمان",
+      "traduction": "Louqman",
+      "type": "mecquoise",
+      "nombre_versets": 34
+    },
+    {
+      "numero": 32,
+      "nom": "As-Sajdah",
+      "nom_arabe": "السجدة",
+      "traduction": "La prosternation",
+      "type": "mecquoise",
+      "nombre_versets": 30
+    },
+    {
+      "numero": 33,
+      "nom": "Al-Ahzab",
+      "nom_arabe": "الأحزاب",
+      "traduction": "Les coalisés",
+      "type": "medinoise",
+      "nombre_versets": 73
+    },
+    {
+      "numero": 34,
+      "nom": "Saba",
+      "nom_arabe": "سبإ",
+      "traduction": "Saba'",
+      "type": "mecquoise",
+      "nombre_versets": 54
+    },
+    {
+      "numero": 35,
+      "nom": "Fatir",
+      "nom_arabe": "فاطر",
+      "traduction": "Le Créateur",
+      "type": "mecquoise",
+      "nombre_versets": 45
+    },
+    {
+      "numero": 36,
+      "nom": "Ya-Sin",
+      "nom_arabe": "يس",
+      "traduction": "Ya-Sin",
+      "type": "mecquoise",
+      "nombre_versets": 83
+    },
+    {
+      "numero": 37,
+      "nom": "As-Saffat",
+      "nom_arabe": "الصافات",
+      "traduction": "Les rangés",
+      "type": "mecquoise",
+      "nombre_versets": 182
+    },
+    {
+      "numero": 38,
+      "nom": "Sad",
+      "nom_arabe": "ص",
+      "traduction": "Sad",
+      "type": "mecquoise",
+      "nombre_versets": 88
+    },
+    {
+      "numero": 39,
+      "nom": "Az-Zumar",
+      "nom_arabe": "الزمر",
+      "traduction": "Les groupes",
+      "type": "mecquoise",
+      "nombre_versets": 75
+    },
+    {
+      "numero": 40,
+      "nom": "Ghafir",
+      "nom_arabe": "غافر",
+      "traduction": "Le Pardonneur",
+      "type": "mecquoise",
+      "nombre_versets": 85
+    },
+    {
+      "numero": 41,
+      "nom": "Fussilat",
+      "nom_arabe": "فصلت",
+      "traduction": "Les versets explicites",
+      "type": "mecquoise",
+      "nombre_versets": 54
+    },
+    {
+      "numero": 42,
+      "nom": "Ash-Shuraa",
+      "nom_arabe": "الشورى",
+      "traduction": "La concertation",
+      "type": "mecquoise",
+      "nombre_versets": 53
+    },
+    {
+      "numero": 43,
+      "nom": "Az-Zukhruf",
+      "nom_arabe": "الزخرف",
+      "traduction": "L'ornement",
+      "type": "mecquoise",
+      "nombre_versets": 89
+    },
+    {
+      "numero": 44,
+      "nom": "Ad-Dukhan",
+      "nom_arabe": "الدخان",
+      "traduction": "La fumée",
+      "type": "mecquoise",
+      "nombre_versets": 59
+    },
+    {
+      "numero": 45,
+      "nom": "Al-Jathiyah",
+      "nom_arabe": "الجاثية",
+      "traduction": "L'agenouillée",
+      "type": "mecquoise",
+      "nombre_versets": 37
+    },
+    {
+      "numero": 46,
+      "nom": "Al-Ahqaf",
+      "nom_arabe": "الأحقاف",
+      "traduction": "Al-Ahqaf",
+      "type": "mecquoise",
+      "nombre_versets": 35
+    },
+    {
+      "numero": 47,
+      "nom": "Muhammad",
+      "nom_arabe": "محمد",
+      "traduction": "Mouhammad",
+      "type": "medinoise",
+      "nombre_versets": 38
+    },
+    {
+      "numero": 48,
+      "nom": "Al-Fath",
+      "nom_arabe": "الفتح",
+      "traduction": "La victoire éclatante",
+      "type": "medinoise",
+      "nombre_versets": 29
+    },
+    {
+      "numero": 49,
+      "nom": "Al-Hujurat",
+      "nom_arabe": "الحجرات",
+      "traduction": "Les appartements",
+      "type": "medinoise",
+      "nombre_versets": 18
+    },
+    {
+      "numero": 50,
+      "nom": "Qaf",
+      "nom_arabe": "ق",
+      "traduction": "Qaf",
+      "type": "mecquoise",
+      "nombre_versets": 45
+    },
+    {
+      "numero": 51,
+      "nom": "Adh-Dhariyat",
+      "nom_arabe": "الذاريات",
+      "traduction": "Qui éparpillent",
+      "type": "mecquoise",
+      "nombre_versets": 60
+    },
+    {
+      "numero": 52,
+      "nom": "At-Tur",
+      "nom_arabe": "الطور",
+      "traduction": "Le mont At-Tour",
+      "type": "mecquoise",
+      "nombre_versets": 49
+    },
+    {
+      "numero": 53,
+      "nom": "An-Najm",
+      "nom_arabe": "النجم",
+      "traduction": "L'étoile",
+      "type": "mecquoise",
+      "nombre_versets": 62
+    },
+    {
+      "numero": 54,
+      "nom": "Al-Qamar",
+      "nom_arabe": "القمر",
+      "traduction": "La lune",
+      "type": "mecquoise",
+      "nombre_versets": 55
+    },
+    {
+      "numero": 55,
+      "nom": "Ar-Rahman",
+      "nom_arabe": "الرحمن",
+      "traduction": "Le Tout Miséricordieux",
+      "type": "medinoise",
+      "nombre_versets": 78
+    },
+    {
+      "numero": 56,
+      "nom": "Al-Waqi'ah",
+      "nom_arabe": "الواقعة",
+      "traduction": "L'inévitable",
+      "type": "mecquoise",
+      "nombre_versets": 96
+    },
+    {
+      "numero": 57,
+      "nom": "Al-Hadid",
+      "nom_arabe": "الحديد",
+      "traduction": "Le fer",
+      "type": "medinoise",
+      "nombre_versets": 29
+    },
+    {
+      "numero": 58,
+      "nom": "Al-Mujadila",
+      "nom_arabe": "المجادلة",
+      "traduction": "La discussion",
+      "type": "medinoise",
+      "nombre_versets": 22
+    },
+    {
+      "numero": 59,
+      "nom": "Al-Hashr",
+      "nom_arabe": "الحشر",
+      "traduction": "L'exode",
+      "type": "medinoise",
+      "nombre_versets": 24
+    },
+    {
+      "numero": 60,
+      "nom": "Al-Mumtahanah",
+      "nom_arabe": "الممتحنة",
+      "traduction": "L'éprouvée",
+      "type": "medinoise",
+      "nombre_versets": 13
+    },
+    {
+      "numero": 61,
+      "nom": "As-Saf",
+      "nom_arabe": "الصف",
+      "traduction": "Le rang",
+      "type": "medinoise",
+      "nombre_versets": 14
+    },
+    {
+      "numero": 62,
+      "nom": "Al-Jumu'ah",
+      "nom_arabe": "الجمعة",
+      "traduction": "Le vendredi",
+      "type": "medinoise",
+      "nombre_versets": 11
+    },
+    {
+      "numero": 63,
+      "nom": "Al-Munafiqun",
+      "nom_arabe": "المنافقون",
+      "traduction": "Les hypocrites",
+      "type": "medinoise",
+      "nombre_versets": 11
+    },
+    {
+      "numero": 64,
+      "nom": "At-Taghabun",
+      "nom_arabe": "التغابن",
+      "traduction": "La grande perte",
+      "type": "medinoise",
+      "nombre_versets": 18
+    },
+    {
+      "numero": 65,
+      "nom": "At-Talaq",
+      "nom_arabe": "الطلاق",
+      "traduction": "Le divorce",
+      "type": "medinoise",
+      "nombre_versets": 12
+    },
+    {
+      "numero": 66,
+      "nom": "At-Tahrim",
+      "nom_arabe": "التحريم",
+      "traduction": "L'interdiction",
+      "type": "medinoise",
+      "nombre_versets": 12
+    },
+    {
+      "numero": 67,
+      "nom": "Al-Mulk",
+      "nom_arabe": "الملك",
+      "traduction": "La royauté",
+      "type": "mecquoise",
+      "nombre_versets": 30
+    },
+    {
+      "numero": 68,
+      "nom": "Al-Qalam",
+      "nom_arabe": "القلم",
+      "traduction": "La plume",
+      "type": "mecquoise",
+      "nombre_versets": 52
+    },
+    {
+      "numero": 69,
+      "nom": "Al-Haqqah",
+      "nom_arabe": "الحاقة",
+      "traduction": "L'inéluctable",
+      "type": "mecquoise",
+      "nombre_versets": 52
+    },
+    {
+      "numero": 70,
+      "nom": "Al-Ma'arij",
+      "nom_arabe": "المعارج",
+      "traduction": "Les voies d'ascension",
+      "type": "mecquoise",
+      "nombre_versets": 44
+    },
+    {
+      "numero": 71,
+      "nom": "Nuh",
+      "nom_arabe": "نوح",
+      "traduction": "Noé",
+      "type": "mecquoise",
+      "nombre_versets": 28
+    },
+    {
+      "numero": 72,
+      "nom": "Al-Jinn",
+      "nom_arabe": "الجن",
+      "traduction": "Les djinns",
+      "type": "mecquoise",
+      "nombre_versets": 28
+    },
+    {
+      "numero": 73,
+      "nom": "Al-Muzzammil",
+      "nom_arabe": "المزمل",
+      "traduction": "L'enveloppé",
+      "type": "mecquoise",
+      "nombre_versets": 20
+    },
+    {
+      "numero": 74,
+      "nom": "Al-Muddaththir",
+      "nom_arabe": "المدثر",
+      "traduction": "Celui qui se couvre",
+      "type": "mecquoise",
+      "nombre_versets": 56
+    },
+    {
+      "numero": 75,
+      "nom": "Al-Qiyamah",
+      "nom_arabe": "القيامة",
+      "traduction": "La résurrection",
+      "type": "mecquoise",
+      "nombre_versets": 40
+    },
+    {
+      "numero": 76,
+      "nom": "Al-Insan",
+      "nom_arabe": "الانسان",
+      "traduction": "L'homme",
+      "type": "medinoise",
+      "nombre_versets": 31
+    },
+    {
+      "numero": 77,
+      "nom": "Al-Mursalat",
+      "nom_arabe": "المرسلات",
+      "traduction": "Les envoyés",
+      "type": "mecquoise",
+      "nombre_versets": 50
+    },
+    {
+      "numero": 78,
+      "nom": "An-Naba",
+      "nom_arabe": "النبإ",
+      "traduction": "La nouvelle",
+      "type": "mecquoise",
+      "nombre_versets": 40
+    },
+    {
+      "numero": 79,
+      "nom": "An-Nazi'at",
+      "nom_arabe": "النازعات",
+      "traduction": "Ceux qui arrachent",
+      "type": "mecquoise",
+      "nombre_versets": 46
+    },
+    {
+      "numero": 80,
+      "nom": "'Abasa",
+      "nom_arabe": "عبس",
+      "traduction": "Il s'est renfrogné",
+      "type": "mecquoise",
+      "nombre_versets": 42
+    },
+    {
+      "numero": 81,
+      "nom": "At-Takwir",
+      "nom_arabe": "التكوير",
+      "traduction": "L'obscurcissement",
+      "type": "mecquoise",
+      "nombre_versets": 29
+    },
+    {
+      "numero": 82,
+      "nom": "Al-Infitar",
+      "nom_arabe": "الإنفطار",
+      "traduction": "La rupture",
+      "type": "mecquoise",
+      "nombre_versets": 19
+    },
+    {
+      "numero": 83,
+      "nom": "Al-Mutaffifin",
+      "nom_arabe": "المطففين",
+      "traduction": "Les fraudeurs",
+      "type": "mecquoise",
+      "nombre_versets": 36
+    },
+    {
+      "numero": 84,
+      "nom": "Al-Inshiqaq",
+      "nom_arabe": "الإنشقاق",
+      "traduction": "La déchirure",
+      "type": "mecquoise",
+      "nombre_versets": 25
+    },
+    {
+      "numero": 85,
+      "nom": "Al-Buruj",
+      "nom_arabe": "البروج",
+      "traduction": "Les constellations",
+      "type": "mecquoise",
+      "nombre_versets": 22
+    },
+    {
+      "numero": 86,
+      "nom": "At-Tariq",
+      "nom_arabe": "الطارق",
+      "traduction": "L'astre nocturne",
+      "type": "mecquoise",
+      "nombre_versets": 17
+    },
+    {
+      "numero": 87,
+      "nom": "Al-A'la",
+      "nom_arabe": "الأعلى",
+      "traduction": "Le Très-Haut",
+      "type": "mecquoise",
+      "nombre_versets": 19
+    },
+    {
+      "numero": 88,
+      "nom": "Al-Ghashiyah",
+      "nom_arabe": "الغاشية",
+      "traduction": "L'enveloppante",
+      "type": "mecquoise",
+      "nombre_versets": 26
+    },
+    {
+      "numero": 89,
+      "nom": "Al-Fajr",
+      "nom_arabe": "الفجر",
+      "traduction": "L'aube",
+      "type": "mecquoise",
+      "nombre_versets": 30
+    },
+    {
+      "numero": 90,
+      "nom": "Al-Balad",
+      "nom_arabe": "البلد",
+      "traduction": "La cité",
+      "type": "mecquoise",
+      "nombre_versets": 20
+    },
+    {
+      "numero": 91,
+      "nom": "Ash-Shams",
+      "nom_arabe": "الشمس",
+      "traduction": "Le soleil",
+      "type": "mecquoise",
+      "nombre_versets": 15
+    },
+    {
+      "numero": 92,
+      "nom": "Al-Layl",
+      "nom_arabe": "الليل",
+      "traduction": "La nuit",
+      "type": "mecquoise",
+      "nombre_versets": 21
+    },
+    {
+      "numero": 93,
+      "nom": "Ad-Duhaa",
+      "nom_arabe": "الضحى",
+      "traduction": "Le jour montant",
+      "type": "mecquoise",
+      "nombre_versets": 11
+    },
+    {
+      "numero": 94,
+      "nom": "Ash-Sharh",
+      "nom_arabe": "الشرح",
+      "traduction": "L'ouverture",
+      "type": "mecquoise",
+      "nombre_versets": 8
+    },
+    {
+      "numero": 95,
+      "nom": "At-Tin",
+      "nom_arabe": "التين",
+      "traduction": "Les figues",
+      "type": "mecquoise",
+      "nombre_versets": 8
+    },
+    {
+      "numero": 96,
+      "nom": "Al-'Alaq",
+      "nom_arabe": "العلق",
+      "traduction": "L'adhérence",
+      "type": "mecquoise",
+      "nombre_versets": 19
+    },
+    {
+      "numero": 97,
+      "nom": "Al-Qadr",
+      "nom_arabe": "القدر",
+      "traduction": "La destinée",
+      "type": "mecquoise",
+      "nombre_versets": 5
+    },
+    {
+      "numero": 98,
+      "nom": "Al-Bayyinah",
+      "nom_arabe": "البينة",
+      "traduction": "La preuve",
+      "type": "medinoise",
+      "nombre_versets": 8
+    },
+    {
+      "numero": 99,
+      "nom": "Az-Zalzalah",
+      "nom_arabe": "الزلزلة",
+      "traduction": "Le séisme",
+      "type": "medinoise",
+      "nombre_versets": 8
+    },
+    {
+      "numero": 100,
+      "nom": "Al-'Adiyat",
+      "nom_arabe": "العاديات",
+      "traduction": "Les coursiers",
+      "type": "mecquoise",
+      "nombre_versets": 11
+    },
+    {
+      "numero": 101,
+      "nom": "Al-Qari'ah",
+      "nom_arabe": "القارعة",
+      "traduction": "Le fracas",
+      "type": "mecquoise",
+      "nombre_versets": 11
+    },
+    {
+      "numero": 102,
+      "nom": "At-Takathur",
+      "nom_arabe": "التكاثر",
+      "traduction": "La course aux richesses",
+      "type": "mecquoise",
+      "nombre_versets": 8
+    },
+    {
+      "numero": 103,
+      "nom": "Al-'Asr",
+      "nom_arabe": "العصر",
+      "traduction": "Le temps",
+      "type": "mecquoise",
+      "nombre_versets": 3
+    },
+    {
+      "numero": 104,
+      "nom": "Al-Humazah",
+      "nom_arabe": "الهمزة",
+      "traduction": "Les calomniateurs",
+      "type": "mecquoise",
+      "nombre_versets": 9
+    },
+    {
+      "numero": 105,
+      "nom": "Al-Fil",
+      "nom_arabe": "الفيل",
+      "traduction": "L'éléphant",
+      "type": "mecquoise",
+      "nombre_versets": 5
+    },
+    {
+      "numero": 106,
+      "nom": "Quraysh",
+      "nom_arabe": "قريش",
+      "traduction": "Les Quraysh",
+      "type": "mecquoise",
+      "nombre_versets": 4
+    },
+    {
+      "numero": 107,
+      "nom": "Al-Ma'un",
+      "nom_arabe": "الماعون",
+      "traduction": "L'entraide",
+      "type": "mecquoise",
+      "nombre_versets": 7
+    },
+    {
+      "numero": 108,
+      "nom": "Al-Kawthar",
+      "nom_arabe": "الكوثر",
+      "traduction": "L'abondance",
+      "type": "mecquoise",
+      "nombre_versets": 3
+    },
+    {
+      "numero": 109,
+      "nom": "Al-Kafirun",
+      "nom_arabe": "الكافرون",
+      "traduction": "Les mécréants",
+      "type": "mecquoise",
+      "nombre_versets": 6
+    },
+    {
+      "numero": 110,
+      "nom": "An-Nasr",
+      "nom_arabe": "النصر",
+      "traduction": "Le secours",
+      "type": "medinoise",
+      "nombre_versets": 3
+    },
+    {
+      "numero": 111,
+      "nom": "Al-Masad",
+      "nom_arabe": "المسد",
+      "traduction": "Les fibres",
+      "type": "mecquoise",
+      "nombre_versets": 5
+    },
+    {
+      "numero": 112,
+      "nom": "Al-Ikhlas",
+      "nom_arabe": "الإخلاص",
+      "traduction": "La sincérité",
+      "type": "mecquoise",
+      "nombre_versets": 4
+    },
+    {
+      "numero": 113,
+      "nom": "Al-Falaq",
+      "nom_arabe": "الفلق",
+      "traduction": "L'aube naissante",
+      "type": "mecquoise",
+      "nombre_versets": 5
+    },
+    {
+      "numero": 114,
+      "nom": "An-Nas",
+      "nom_arabe": "الناس",
+      "traduction": "Les humains",
+      "type": "mecquoise",
+      "nombre_versets": 6
+    }
+  ]
+}
