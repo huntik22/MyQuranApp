@@ -6,6 +6,7 @@ import '../../core/widgets/surah_number_badge.dart';
 import '../../data/models/sourate.dart';
 import '../../data/repositories/quran_repository.dart';
 import 'widgets/continue_reading_banner.dart';
+import 'sourate_detail_screen.dart';
 
 class LectureScreen extends StatefulWidget {
   const LectureScreen({super.key});
@@ -166,20 +167,28 @@ class _LectureScreenState extends State<LectureScreen> {
   }
 
   Widget _buildSourateList(bool isDarkMode) {
-    return ListView.separated(
-      padding: const EdgeInsets.fromLTRB(20, 2, 20, 28),
-      itemCount: _filteredSourates.length,
-      separatorBuilder: (_, __) => const SizedBox(height: 14),
-      itemBuilder: (context, index) {
-        final sourate = _filteredSourates[index];
-        return _SourateCard(
-          sourate: sourate,
-          onTap: () {},
-          isDarkMode: isDarkMode,
-        );
-      },
-    );
-  }
+  return ListView.separated(
+    padding: const EdgeInsets.fromLTRB(20, 2, 20, 28),
+    itemCount: _filteredSourates.length,
+    separatorBuilder: (_, __) => const SizedBox(height: 14),
+    itemBuilder: (context, index) {
+      final sourate = _filteredSourates[index];
+      return _SourateCard(
+        sourate: sourate,
+        isDarkMode: isDarkMode,
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => SourateDetailScreen(sourate: sourate),
+            ),
+          );
+        },
+      );
+    },
+  );
+}
+
 }
 
 class _HeaderButton extends StatelessWidget {
