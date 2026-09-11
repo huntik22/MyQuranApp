@@ -4,6 +4,8 @@ import 'package:provider/provider.dart';
 import '../../core/constants/app_colors.dart';
 import '../../core/providers/theme_provider.dart';
 import '../../data/models/sourate.dart';
+import '../../data/models/page_coran.dart';
+import '../../data/repositories/quran_repository.dart';
 
 class SourateDetailScreen extends StatefulWidget {
   final Sourate sourate;
@@ -56,26 +58,25 @@ class _SourateDetailScreenState extends State<SourateDetailScreen> {
           children: [
             // ---- Contenu de la sourate (placeholder pour l'instant) ----
             SafeArea(
-              child: Center(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      widget.sourate.nomArabe,
-                      style: TextStyle(
-                        fontFamily: 'serif',
-                        fontSize: 32,
-                        color: AppColors.goldFor(isDarkMode),
-                      ),
+              child: FutureBuilder<PageCoran>(
+                future: Future(() => QuranRepository().getPage(
+                      QuranRepository().getFirstPageOfSourate(widget.sourate.numero),
+                    )),
+                builder: (context, snapshot) {
+                  if (!snapshot.hasData) {
+                    return const Center(child: CircularProgressIndicator());
+                  }
+                  final page = snapshot.data!;
+                  return SingleChildScrollView(
+                    padding: const EdgeInsets.all(20),
+                    child: Text(
+                      page.versets.map((v) => '(${v.sourateNumero}:${v.numero}) ${v.texte}').join('\n\n'),
+                      style: const TextStyle(fontFamily: 'serif', fontSize: 20),
+                      textDirection: TextDirection.rtl,
                     ),
-                    const SizedBox(height: 12),
-                    Text(
-                      '${widget.sourate.traduction} · ${widget.sourate.nombreVersets} versets',
-                      style: TextStyle(color: AppColors.textSecondaryFor(isDarkMode)),
-                    ),
-                  ],
-                ),
-              ),
+                  );
+                },
+              ),          
             ),
 
             // ---- AppBar flottante, colorée dès le tout haut de l'écran ----
