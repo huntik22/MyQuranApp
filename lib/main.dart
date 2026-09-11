@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'core/providers/theme_provider.dart';
 import 'navigation/main_tab_view.dart';
-// import 'navigation/test.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,10 +12,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Coran App',
-      debugShowCheckedModeBanner: false,
-      home: const MainTabView(),
+    return ChangeNotifierProvider(
+      create: (context) => ThemeProvider(),
+      child: MaterialApp(
+        title: 'Coran App',
+        debugShowCheckedModeBanner: false,
+        home: const MainTabView(),
+      ),
     );
   }
 }
